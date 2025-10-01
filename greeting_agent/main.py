@@ -28,10 +28,11 @@ greeting_agent = Agent(
 
 
 # Get user input from the terminal
-user_question = input("Please enter your question: ")
+user_question = input("Please enter your question:v2 ")
 
 # Run the agent with user input and get result
 result = Runner.run_sync(greeting_agent, user_question)
 
 # Print the result
+
 print(result.final_output)
